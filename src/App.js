@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import ColorPalette from './ColorPalette.js';
+import ColorSelector from './ColorSelector.js';
+import { colors } from './colors.js';
+import { useState } from 'react'
 
-function App() {
+function App()
+{
+
+  const [ color, setColor ] = useState( 'Empty Input' )
+
+  const handleColorSelection = ( color ) =>
+  {
+    const colorList = colors;
+    colorList.forEach( ( color ) => ( color ) );
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <ColorPalette
+        color={ color }
+        setColor={ setColor }
+      />
+      <ColorSelector
+        color={ color }
+        setColor={ setColor }
+        handleColorSelection={ handleColorSelection }
+      />
+
     </div>
   );
 }
