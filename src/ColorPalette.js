@@ -1,10 +1,10 @@
 import React from "react";
 
-const ColorPalette = ( { color, setColor } ) =>
+const ColorPalette = ( { color } ) =>
 {
   return (
-    <div className='colorPaletteContainer'>
-
+    <div className='colorPalette'>
+      { color }
     </div>
   )
 };

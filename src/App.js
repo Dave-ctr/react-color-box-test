@@ -6,25 +6,28 @@ import { useState } from 'react'
 
 function App()
 {
+  const colorList = colors;
 
-  const [ color, setColor ] = useState( 'Empty Input' )
+  const [ color, setColor ] = useState( 'Empty Value' )
 
-  const handleColorSelection = ( color ) =>
+  const [ colorChoice, setColorChoice ] = useState( '' );
+
+  const handleColorSelection = ( event ) =>
   {
-    const colorList = colors;
-    colorList.forEach( ( color ) => ( color ) );
+    const inputedColor = event.target.value;
+    setColorChoice( inputedColor );
   }
+
+
 
   return (
     <div className="App">
 
       <ColorPalette
         color={ color }
-        setColor={ setColor }
       />
       <ColorSelector
-        color={ color }
-        setColor={ setColor }
+        colorChoice={ colorChoice }
         handleColorSelection={ handleColorSelection }
       />
 

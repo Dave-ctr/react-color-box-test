@@ -1,11 +1,14 @@
 .App
 {
+  width: 100vw;
+  min-height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  background-color: #181A1B;
 }
 
 .App-logo
@@ -52,12 +55,20 @@
   }
 }
 
-.colorPaletteContainer
+.colorPalette
 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 20rem;
   height: 20rem;
   border: 2px solid whitesmoke;
   margin-top: 2rem;
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: #181A1B;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px rgba(245, 245, 245, 1);
 }
 
 .colorSelectionForm
@@ -69,21 +80,12 @@
   gap: 1rem;
 }
 
-.colorSelectionForm label
-{
-  font-size: 2rem;
-}
-
 .colorSelectionForm input
 {
   width: 20rem;
   height: 3rem;
   font-size: 2rem;
-}
-
-.colorSelectionForm button
-{
-  width: 10rem;
-  height: 3rem;
-  font-size: 2rem;
+  background-color: #181A1B;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px rgba(245, 245, 245, 1);
 }

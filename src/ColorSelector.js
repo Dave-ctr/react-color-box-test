@@ -1,22 +1,18 @@
 import React from "react";
 
-const ColorSelector = ( { color, setColor, handleColorSelector } ) =>
+const ColorSelector = ( { colorChoice, handleColorSelection } ) =>
 {
+  console.log( colorChoice )
   return (
     <form className="colorSelectionForm">
-      <label htmlFor="colorSelection">Choose Color
-      </label>
       <input
         autoFocus
         id='colorSelection'
         type="text"
-        placeholder='Input Color'
+        placeholder='Add Color Name'
+        onChange={ handleColorSelection }
         required
       />
-      <button
-        type='submit'
-      >Color It!!
-      </button>
     </form>
   )
 };
