@@ -1,8 +1,8 @@
 import React from "react";
 
-const ColorSelector = ( { colorChoice, handleColorSelection } ) =>
+const ColorSelector = ( { handleColorSelection } ) =>
 {
-  console.log( colorChoice )
+
   return (
     <form className="colorSelectionForm">
       <input

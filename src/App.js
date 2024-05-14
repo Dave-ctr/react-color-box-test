@@ -1,14 +1,12 @@
 import './App.css';
 import ColorPalette from './ColorPalette.js';
 import ColorSelector from './ColorSelector.js';
-import { colors } from './colors.js';
 import { useState } from 'react'
 
 function App()
 {
-  const colorList = colors;
 
-  const [ color, setColor ] = useState( 'Empty Value' )
+  const [ color, setColor ] = useState( 'Empty value' )
 
   const [ colorChoice, setColorChoice ] = useState( '' );
 
@@ -16,13 +14,11 @@ function App()
   {
     const inputedColor = event.target.value;
     setColorChoice( inputedColor );
+    inputedColor ? setColor( inputedColor ) : setColor( '' );
   }
-
-
 
   return (
     <div className="App">
-
       <ColorPalette
         color={ color }
       />
