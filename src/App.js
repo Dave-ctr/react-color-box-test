@@ -1,32 +1,36 @@
-import './App.css';
-import ColorPalette from './ColorPalette.js';
-import ColorSelector from './ColorSelector.js';
-import { useState } from 'react'
+import "./App.css";
+import ColorPalette from "./ColorPalette.js";
+import ColorSelector from "./ColorSelector.js";
+import { useState } from "react";
+import colorNames from "colornames";
+import Button from "./Button.js";
 
-function App()
-{
+function App() {
+  const [color, setColor] = useState("");
+  const [hexValue, setHexValue] = useState("");
+  const [colorChoice, setColorChoice] = useState("");
+  const [isLightText, setIsLightText] = useState(false);
 
-  const [ color, setColor ] = useState( 'Empty value' )
-
-  const [ colorChoice, setColorChoice ] = useState( '' );
-
-  const handleColorSelection = ( event ) =>
-  {
+  const handleColorSelection = (event) => {
     const inputedColor = event.target.value;
-    setColorChoice( inputedColor );
-    inputedColor ? setColor( inputedColor ) : setColor( '' );
-  }
+    setColorChoice(inputedColor);
+    setHexValue(colorNames(inputedColor));
+    inputedColor ? setColor(inputedColor) : setColor("");
+  };
 
   return (
     <div className="App">
       <ColorPalette
-        color={ color }
+        color={color}
+        hexValue={hexValue}
+        isLightText={isLightText}
       />
       <ColorSelector
-        colorChoice={ colorChoice }
-        handleColorSelection={ handleColorSelection }
+        colorChoice={colorChoice}
+        setHexValue={setHexValue}
+        handleColorSelection={handleColorSelection}
       />
-
+      <Button isLightText={isLightText} setIsLightText={setIsLightText} />
     </div>
   );
 }

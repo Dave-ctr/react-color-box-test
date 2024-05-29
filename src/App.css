@@ -1,5 +1,4 @@
-.App
-{
+.App {
   width: 100vw;
   min-height: 100vh;
   text-align: center;
@@ -8,25 +7,21 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  background-color: #181A1B;
+  background-color: #181a1b;
 }
 
-.App-logo
-{
+.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference)
-{
-  .App-logo
-  {
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header
-{
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -37,26 +32,21 @@
   color: white;
 }
 
-.App-link
-{
+.App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin
-{
-  from
-  {
+@keyframes App-logo-spin {
+  from {
     transform: rotate(0deg);
   }
 
-  to
-  {
+  to {
     transform: rotate(360deg);
   }
 }
 
-.colorPalette
-{
+.colorPalette {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,13 +56,12 @@
   margin-top: 2rem;
   font-size: 2rem;
   color: whitesmoke;
-  background-color: #181A1B;
+  background-color: #181a1b;
   border-radius: 0.5rem;
   box-shadow: 5px 5px 10px rgba(245, 245, 245, 1);
 }
 
-.colorSelectionForm
-{
+.colorSelectionForm {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,13 +69,22 @@
   gap: 1rem;
 }
 
-.colorSelectionForm input
-{
+.colorSelectionForm input {
   width: 20rem;
   height: 3rem;
   font-size: 2rem;
   color: whitesmoke;
-  background-color: #181A1B;
+  background-color: #181a1b;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px rgba(245, 245, 245, 1);
+}
+
+button {
+  width: 20rem;
+  height: 3rem;
+  font-size: 2rem;
+  color: whitesmoke;
+  background-color: #181a1b;
   border-radius: 0.5rem;
   box-shadow: 5px 5px 10px rgba(245, 245, 245, 1);
 }
