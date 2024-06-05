@@ -1,3 +1,139 @@
+# React Color Box
+
+A simple color box application built with React. 
+
+This project allows users to select colors and apply them to a box, demonstrating the use of state and props in a React application.
+
+<img src='./assets/img/Color Box.png' alt='React Color Box'>
+<img src='./assets/img/Color Box Red.png' alt='React Color Box Red'>
+<img src='./assets/img/Color Box Golden Rod.png' alt='React Color Box Golden Rod'>
+
+## Features
+
+- Display the hex value of colors upon selection
+- Apply selected color to a box
+- Dynamic update of the box color
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/react-color-box.git
+    ```
+2. **Navigate to the project directory:**
+    ```sh
+    cd react-color-box-test-master
+    ```
+3. **Install dependencies:**
+    ```sh
+    npm install
+    ```
+    or
+    ```sh
+    yarn install
+    ```
+
+### Usage
+
+1. **Start the development server:**
+    ```sh
+    npm start
+    ```
+    or
+    ```sh
+    yarn start
+    ```
+2. Open the application in your web browser at `http://localhost:3000`.
+3. Use the color palette to select a color.
+4. The selected color will be applied to the box.
+
+## File Structure
+```plaintext
+react-color-box-test-master/
+├── .gitignore
+├── README.md
+├── package-lock.json
+├── package.json
+├── .vscode/
+│   └── settings.json
+├── assets/
+│   └── img/
+│       ├── Color Box.png
+│       ├── Color Box Red.png
+│       └── Color Box Golden Rod.png
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src/
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── Button.js
+    ├── ColorPalette.js
+    ├── ColorSelector.js
+    ├── colors.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── reportWebVitals.js
+    └── setupTests.js
+```
+
+- **.gitignore**: Specifies files to be ignored by Git.
+- **README.md**: The readme file for the project.
+- **package-lock.json**: Automatically generated file that contains information about the dependency tree.
+- **package.json**: Contains the metadata for the project and dependencies.
+- **.vscode/**: Contains settings for VS Code.
+- - **assets/**: Contains images for the application.
+  - **img/**: Images used in the application.
+- **public/**: Contains public assets and the main HTML file.
+  - **favicon.ico**: The favicon for the application.
+  - **index.html**: The main HTML file for the application.
+  - **logo192.png**: A React logo used in the application.
+  - **logo512.png**: A larger version of the React logo.
+  - **manifest.json**: Provides metadata for the application (used in PWA).
+  - **robots.txt**: Instructions for web crawlers.
+- **src/**: Contains the source code for the application.
+  - **App.css**: CSS file for styling the App component.
+  - **App.js**: The main App component.
+  - **App.test.js**: Test file for the App component.
+  - **Button.js**: A reusable button component.
+  - **ColorPalette.js**: Component for displaying the color palette.
+  - **ColorSelector.js**: Component for selecting a color.
+  - **colors.js**: Contains the color data used in the application.
+  - **index.css**: Global CSS file.
+  - **index.js**: Entry point for the React application.
+  - **logo.svg**: SVG version of the React logo.
+  - **reportWebVitals.js**: For measuring performance of the app.
+  - **setupTests.js**: Configuration for running tests.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries, please reach out to:
+
+- Dave - [davejtake2@gmail.com](mailto:davejtake2@gmail.com)
+- GitHub: [DaveJamieson](https://github.com/DaveJamieson)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
