@@ -65,9 +65,9 @@ react-color-box-test-master/
 │   └── settings.json
 ├── assets/
 │   └── img/
-│       ├── Color Box.png
-│       ├── Color Box Red.png
-│       └── Color Box Golden Rod.png
+│       ├── ColorBox.png
+│       ├── ColorBoxRed.png
+│       └── ColorBoxGoldenRod.png
 ├── public/
 │   ├── favicon.ico
 │   ├── index.html
