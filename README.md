@@ -4,7 +4,7 @@ A simple color box application built with React.
 
 This project allows users to select colors and apply them to a box, demonstrating the use of state and props in a React application.
 
-<a href='https://davejamieson.github.io/react-color-box-test/'>Get Colorful In Here!!</a>
+<a href='https://davejamieson.github.io/react-color-box-test'>Get Colorful In Here!!</a>
 
 <img src='./assets/img/ColorBox.png' alt='React Color Box'>
 <img src='./assets/img/ColorBoxRed.png' alt='React Color Box Red'>
