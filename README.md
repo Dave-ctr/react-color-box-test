@@ -4,6 +4,8 @@ A simple color box application built with React.
 
 This project allows users to select colors and apply them to a box, demonstrating the use of state and props in a React application.
 
+<a href='https://davejamieson.github.io/react-color-box-test'>Get Colorful In Here!!</a>
+
 <img src='./assets/img/ColorBox.png' alt='React Color Box'>
 <img src='./assets/img/ColorBoxRed.png' alt='React Color Box Red'>
 <img src='./assets/img/ColorBoxGoldenRod.png' alt='React Color Box Golden Rod'>
@@ -65,9 +67,9 @@ react-color-box-test-master/
 │   └── settings.json
 ├── assets/
 │   └── img/
-│       ├── Color Box.png
-│       ├── Color Box Red.png
-│       └── Color Box Golden Rod.png
+│       ├── ColorBox.png
+│       ├── ColorBoxRed.png
+│       └── ColorBoxGoldenRod.png
 ├── public/
 │   ├── favicon.ico
 │   ├── index.html
@@ -95,7 +97,7 @@ react-color-box-test-master/
 - **package-lock.json**: Automatically generated file that contains information about the dependency tree.
 - **package.json**: Contains the metadata for the project and dependencies.
 - **.vscode/**: Contains settings for VS Code.
-- - **assets/**: Contains images for the application.
+- **assets/**: Contains images for the application.
   - **img/**: Images used in the application.
 - **public/**: Contains public assets and the main HTML file.
   - **favicon.ico**: The favicon for the application.
