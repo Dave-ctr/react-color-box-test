@@ -95,7 +95,7 @@ react-color-box-test-master/
 - **package-lock.json**: Automatically generated file that contains information about the dependency tree.
 - **package.json**: Contains the metadata for the project and dependencies.
 - **.vscode/**: Contains settings for VS Code.
-- - **assets/**: Contains images for the application.
+- **assets/**: Contains images for the application.
   - **img/**: Images used in the application.
 - **public/**: Contains public assets and the main HTML file.
   - **favicon.ico**: The favicon for the application.
