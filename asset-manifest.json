@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-color-box-test/static/css/main.2e3935a6.css",
+    "main.js": "/react-color-box-test/static/js/main.f50c6d67.js",
+    "static/js/453.4a585897.chunk.js": "/react-color-box-test/static/js/453.4a585897.chunk.js",
+    "index.html": "/react-color-box-test/index.html",
+    "main.2e3935a6.css.map": "/react-color-box-test/static/css/main.2e3935a6.css.map",
+    "main.f50c6d67.js.map": "/react-color-box-test/static/js/main.f50c6d67.js.map",
+    "453.4a585897.chunk.js.map": "/react-color-box-test/static/js/453.4a585897.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e3935a6.css",
+    "static/js/main.f50c6d67.js"
+  ]
+}
